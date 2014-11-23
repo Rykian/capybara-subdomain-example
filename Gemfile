@@ -37,3 +37,11 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'puma'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'poltergeist'
+end
